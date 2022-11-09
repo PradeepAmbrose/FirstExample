@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Customer form</title>
+    </head>
+    <body>
+        <h1>Customer form</h1>
+        <h2>Instructions</h2>
+        <ul>
+            <li>Complete the fields</li>
+            <li>Press the send button</li>
+        </ul>
+
+        <h2>Customer information</h2>
+        <form action="https://some-server123.com/customer" method="get" >
+                <label for="job-title">Job title</label>
+                
+                <select name="jt" required>
+                    <option value="" disabled selected >please select</option>
+                    <option value="trainee">trainee</option>
+                    <option value="professional">professional</option>
+                </select>
+
+                <br>
+                <label for="custn" >Customer name</label>
+                <input type="text" name="custn" id="custn">
+                <br>
+            
+                <button type="submit">Send</button>
+        </form> 
+    </body>
+</html>

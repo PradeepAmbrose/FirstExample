@@ -1,0 +1,36 @@
+body {
+    font-size: 14px;
+    color: #0000ff;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+.mini-heading {
+    text-transform:uppercase;
+}
+
+#custid {
+    border: 1px solid #00ff00;
+}
+
+.container {
+
+    border : 1px solid #ccc;
+    width: 500px;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+@media screen and (max-width: 600px)
+{
+    .container {
+    width:90%;
+    max-width: 90%;
+}
+
+.mini-heading{
+    display: none;
+ }
+}
